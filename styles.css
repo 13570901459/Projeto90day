@@ -10,8 +10,11 @@
 body {
   background-image: url("../img/bp.jpg");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat; /* Isso impede que a imagem seja repetida */
+  background-size: cover; /* Isso faz com que a imagem cubra todo o espaço disponível */
+  background-attachment: fixed; /* Isso fixa a imagem de fundo, impedindo-a de se mover ao rolar a página */
 }
+
 
 button {
   background-color: #fdfdfd;
